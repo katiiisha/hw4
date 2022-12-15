@@ -7,13 +7,18 @@ function addition(numbaer1, number2) {
 
 // задача 2 
 //если дано одно слово
-
 palindrome('strong');
 palindrome('level');
 function palindrome(str) {
-    str = str.toLowerCase(); // не учитывается регистр     
-    return str === str.split('').reverse().join('');
+    str = str.toLowerCase(); // не учитывается регистр
+    if (str === str.split('').reverse().join('')) {
+        console.log('palindrome')
+    } else { 
+        console.log('ne palindrome')
+    }
+    // return str === str.split('').reverse().join('');
 }
+
 
 
 
