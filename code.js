@@ -11,12 +11,7 @@ palindrome('strong');
 palindrome('level');
 function palindrome(str) {
     str = str.toLowerCase(); // не учитывается регистр
-    if (str === str.split('').reverse().join('')) {
-        console.log('palindrome')
-    } else { 
-        console.log('ne palindrome')
-    }
-    // return str === str.split('').reverse().join('');
+    return (str === str.split('').reverse().join('')) ? console.log("палиндом") : console.log("не палиндром ")
 }
 
 
