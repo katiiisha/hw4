@@ -1,6 +1,6 @@
 // задача 1
-let numbaer1 = prompt()
-let number2 = prompt()
+let numbaer1 = +prompt()
+let number2 = +prompt()
 function addition(numbaer1, number2) { 
     return numbaer1 + number2
 }
